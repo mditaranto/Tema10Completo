@@ -20,7 +20,7 @@ public class Main {
 
 		try {
 			sca = new Scanner(new FileReader(
-					"C:\\Users\\mditaranto\\elipse-workspace 2\\Tema10Ficheros\\src\\ejercicio3\\Alumnos.txt"));
+					"ficheros\ejercicio3\Alumnos.txt"));
 			sca.useLocale(Locale.US);
 
 			boolean acabado = false;
