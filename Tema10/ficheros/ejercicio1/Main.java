@@ -11,7 +11,7 @@ public class Main {
 		Scanner sca = null;
 		try {
 			sca = new Scanner(new FileReader(
-					"C:\\Users\\mditaranto\\elipse-workspace 2\\Tema10Ficheros\\src\\ejercicio1\\NumerosReales.txt"));
+					"ficheros\\ejercicio1\\NumerosReales.txt"));
 			sca.useLocale(Locale.US);
 			double suma = 0;
 			int contador = 0;
