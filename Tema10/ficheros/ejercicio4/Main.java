@@ -15,7 +15,7 @@ public class Main {
 		
 		try {
 			in = new BufferedWriter(new FileWriter(
-					"C:\\Users\\mditaranto\\elipse-workspace 2\\Tema10Ficheros\\src\\ejercicio4\\Escribir.txt"));
+					"ficheros\ejercicio4\Escribir.txt"));
 			
 			
 			boolean end = false;
