@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		File datos = new File("C:\\Users\\mditaranto\\elipse-workspace 2\\Tema10Ficheros\\src\\ejercicio5\\datos.txt");
+		File datos = new File("ficheros\ejercicio5\datos.txt");
 		
 		Scanner sca = new Scanner(System.in).useLocale(Locale.US);
 		String palabras;
@@ -25,7 +25,7 @@ public class Main {
 		
 		try {
 			in = new BufferedWriter(new FileWriter
-					("C:\\Users\\mditaranto\\elipse-workspace 2\\Tema10Ficheros\\src\\ejercicio5\\datos.txt", true));
+					("ficheros\ejercicio5\datos.txt", true));
 			
 			System.out.println("Introduce tu nombre y edad");
 			palabras = sca.nextLine();
