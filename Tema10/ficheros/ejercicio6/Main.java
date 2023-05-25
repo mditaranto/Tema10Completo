@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Main {
 	
-	private final static String RUTA = "C:\\Users\\mditaranto\\elipse-workspace 2\\Tema10Ficheros\\src\\ejercicio6";
+	private final static String RUTA = "ficheros\\ejercicio6";
 	private static final String DES = RUTA + "\\desordenados.txt";
 	private static final String ORD = RUTA + "\\ordenados.txt";
 
